@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "3929708105",
+    "firebase_url": "https://phoneauth-a5df4.firebaseio.com",
+    "project_id": "phoneauth-a5df4",
+    "storage_bucket": "phoneauth-a5df4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3929708105:android:eaed92a22509f687",
+        "android_client_info": {
+          "package_name": "manzoor.phoneauthe.com.phoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3929708105-5nnm2c9rgh5g44i9pkp32v3g398vqlpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "manzoor.phoneauthe.com.phoneauth",
+            "certificate_hash": "efb8afa7c342e320a749f91fa0b0206cc6131efa"
+          }
+        },
+        {
+          "client_id": "3929708105-a8k46jnod6qg1v4fsa94lca4q3183ec1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwYfygioR3qjFY-Kukr4zRobTekMBYCCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3929708105-a8k46jnod6qg1v4fsa94lca4q3183ec1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3929708105:android:26af5c4b5b5e8a52",
+        "android_client_info": {
+          "package_name": "manzoor.restaurent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3929708105-qq3csg7nb0d8q57f9rmgueemv0j3v1tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "manzoor.restaurent",
+            "certificate_hash": "efb8afa7c342e320a749f91fa0b0206cc6131efa"
+          }
+        },
+        {
+          "client_id": "3929708105-a8k46jnod6qg1v4fsa94lca4q3183ec1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwYfygioR3qjFY-Kukr4zRobTekMBYCCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3929708105-a8k46jnod6qg1v4fsa94lca4q3183ec1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3929708105:android:d58db85bdd2d4ac0",
+        "android_client_info": {
+          "package_name": "restaurent.manzoor.restaurentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3929708105-rl7l7pacjnsmr5l7t4nl5ghd16pg6gei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "restaurent.manzoor.restaurentapp",
+            "certificate_hash": "efb8afa7c342e320a749f91fa0b0206cc6131efa"
+          }
+        },
+        {
+          "client_id": "3929708105-a8k46jnod6qg1v4fsa94lca4q3183ec1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwYfygioR3qjFY-Kukr4zRobTekMBYCCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3929708105-a8k46jnod6qg1v4fsa94lca4q3183ec1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

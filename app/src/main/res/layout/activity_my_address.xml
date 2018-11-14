@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="match_parent"
+    tools:context=".activity.MyAddressActivity">
+     <ImageView
+         android:id="@+id/ic_home"
+         android:src="@drawable/ic_home"
+         android:padding="5dp"
+         android:layout_width="50dp"
+         android:layout_height="50dp" />
+    <TextView
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_home"
+        app:layout_constraintTop_toTopOf="@+id/ic_home"
+        app:layout_constraintLeft_toRightOf="@+id/ic_home"
+        android:id="@+id/homeTextView"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/homeTextView"
+        android:text="7 HV, Bommanahalli , virat nagar, bangalore karnataka 560038, india"
+        android:id="@+id/addressTextView"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/addressTextView"
+        android:text="EDIT"
+        app:layout_constraintLeft_toRightOf="@+id/ic_home"
+        android:id="@+id/editAddress"
+        android:padding="10dp"
+        android:textColor="#ff4d6f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/addressTextView"
+        app:layout_constraintLeft_toRightOf="@+id/editAddress"
+        android:text="DELETE"
+        android:textColor="#ff4d6f"
+        android:id="@+id/deleteAddress"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/deleteAddress"
+        android:text="ADD NEW ADDRESS"
+        android:background="#fff"
+        android:padding="10dp"
+        android:textColor="@color/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</android.support.constraint.ConstraintLayout>

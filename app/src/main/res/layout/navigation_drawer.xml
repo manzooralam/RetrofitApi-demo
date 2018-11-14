@@ -1,0 +1,117 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:id="@+id/ll_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_mobile"
+            fontPath="@string/font_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_200"
+            android:drawablePadding="@dimen/standard"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="bottom"
+            android:paddingStart="@dimen/medium"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingEnd="@dimen/medium"
+            android:paddingBottom="@dimen/standard"
+            android:text="8002877277"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            fontPath="@string/font_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_200"
+            android:drawablePadding="@dimen/standard"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="bottom"
+            android:paddingStart="@dimen/medium"
+            android:paddingEnd="@dimen/medium"
+            android:paddingBottom="@dimen/standard"
+            android:text="Shankar Kumar"
+            android:textSize="@dimen/text_small" />
+
+        <!--<TextView
+            fontPath="@string/font_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawer_category"
+            android:paddingBottom="@dimen/standard"
+            android:paddingEnd="@dimen/large"
+            android:paddingStart="@dimen/large"
+            android:paddingTop="@dimen/standard"
+            android:text="@string/my_information"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_very_small"/>-->
+
+        <TextView
+            android:id="@+id/nav_my_orders"
+            style="@style/NavigationText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/my_orders" />
+
+
+        <!--  <TextView
+              fontPath="@string/font_medium"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/drawer_category"
+              android:paddingBottom="@dimen/standard"
+              android:paddingEnd="@dimen/large"
+              android:paddingStart="@dimen/large"
+              android:paddingTop="@dimen/standard"
+              android:text="@string/others"
+              android:textColor="@color/colorPrimary"
+              android:textSize="@dimen/text_very_small"/>-->
+
+        <TextView
+            android:id="@+id/nav_contact_us"
+            style="@style/NavigationText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/contact_us" />
+
+        <TextView
+            android:id="@+id/nav_rate_us"
+            style="@style/NavigationText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/rate_us" />
+
+        <TextView
+            android:id="@+id/nav_share"
+            style="@style/NavigationText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/share" />
+
+        <TextView
+            android:id="@+id/nav_about_us"
+            style="@style/NavigationText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/about_us" />
+
+        <TextView
+            android:id="@+id/nav_logout"
+            style="@style/NavigationText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/logout" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_empty">This field cannot be blank</string>
+    <string name="error_email">Please enter a valid email</string>
+    <string name="user_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="user_phone">Enter Phone</string>
+    <string name="user_password">Enter Password</string>
+    <string name="verify_password">verify Password</string>
+    <string name="submit_button">SUBMIT</string>
+
+
+    <string name="app_name">Restaurent App</string>
+
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="format_price">\u20B9 %.2f</string>
+    <string name="pick_your_size">Pick your size</string>
+    <string name="loading_product_details">Loading product details…</string>
+
+    <string name="font_light">fonts/celias_light.otf</string>
+    <string name="font_medium">fonts/celias_medium.otf</string>
+    <string name="font_bold">fonts/celias_bold.otf</string>
+    <string name="hint_name">Enter Full Name</string>
+    <string name="hint_mobile">mobile number</string>
+    <string name="hint_email">Enter email id</string>
+    <string name="hint_address">Enter your address</string>
+    <string name="app_name_home">Restaurant App</string>
+    <string name="format_cart_subtotal">Cart SubTotal (%d Item)</string>
+    <string name="cart_estimated">Estimated Order Total</string>
+    <string name="checkout">Checkout</string>
+    <string name="empty_cart">No items in your cart</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="paymenttype">Payment Type</string>
+    <string name="orderid">Order Id :</string>
+    <string name="orderdate">Order Date :</string>
+    <string name="deliver">Delivered</string>
+    <string name="quantity">Qty:</string>
+    <string name="amount">Amount: </string>
+    <string name="rateproduct">Rate Product</string>
+    <string name="payment_type">Payment Type: </string>
+    <string name="payment_status">Payment Status: </string>
+    <string name="my_information">My Information</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_order">My Order</string>
+    <string name="my_addresses">My Addresses</string>
+    <string name="others">Others</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="placeorder">Place Order</string>
+    <string name="successtext">Your order has been placed successfully, \n click on My Order to track your order.</string>
+    <string name="ourmenu">Today\'s Menu</string>
+    <string name="nointernetconnection">No Internet Connection.</string>
+    <string name="total">Total</string>
+    <string name="orderdetails">Order Details</string>
+    <string name="deliverto">Deliver To:</string>
+    <string name="writefulladdress">Write your full address</string>
+
+</resources>

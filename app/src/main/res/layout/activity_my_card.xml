@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <include layout="@layout/my_card_toolbar"
+        android:id="@+id/mycartollbar"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_CartRV"
+        app:layout_constraintTop_toBottomOf="@+id/mycartollbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/my_cart_row">
+    </android.support.v7.widget.RecyclerView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/bottomCV"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        card_view:cardCornerRadius="4dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:layout_constraintBottom_toBottomOf="parent">
+    <android.support.constraint.ConstraintLayout
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/my_CartRV"
+        android:layout_width="match_parent"
+        android:id="@+id/totalCost"
+        android:layout_height="wrap_content">
+         <TextView
+             android:textColor="@color/white"
+             android:id="@+id/total_cost"
+             android:padding="5dp"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             android:text="Total Items :"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/white"
+            card_view:layout_constraintTop_toBottomOf="@+id/total_cost"
+            android:id="@+id/total_items"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Total Costs : ₹ 1500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/rs"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="5"
+            card_view:layout_constraintLeft_toRightOf="@+id/total_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/white"
+            android:onClick="goToCheckOutActivity"
+            android:id="@+id/check"
+           app:layout_constraintRight_toRightOf="parent"
+            android:padding="5dp"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="CheckOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

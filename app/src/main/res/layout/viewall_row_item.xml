@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_marginLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:layout_marginTop="10dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/rell"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgCard"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#fff"
+            card_view:layout_constraintLeft_toLeftOf="parent"
+            card_view:layout_constraintRight_toRightOf="parent"
+            android:gravity="center_vertical"
+            android:src="@mipmap/logo"
+            tools:layout_editor_absoluteX="32dp" />
+
+        <ImageView
+            android:id="@+id/imgHert"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#fff"
+            card_view:layout_constraintRight_toRightOf="parent"
+            android:layout_margin="5dp"
+            card_view:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="50sp"
+            android:layout_toRightOf="@id/imgCard"
+            android:src="@drawable/ic_star" />
+
+        <TextView
+            android:id="@+id/txtCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgCard"
+            android:gravity="center_vertical"
+            android:text="SAMSUNG J218"
+            android:textSize="13dp"
+            card_view:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="10dp"
+            card_view:layout_constraintTop_toBottomOf="@+id/imgCard"
+            android:fontFamily="@font/celias_medium"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtCompanyName"
+            card_view:layout_constraintLeft_toLeftOf="parent"
+            card_view:layout_constraintTop_toTopOf="@+id/addCart"
+            android:layout_marginLeft="5dp"
+            card_view:layout_constraintBottom_toBottomOf="@+id/addCart"
+            android:rating="3.5"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/addCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/priceLayout"
+            android:background="#fff"
+            android:text="Add To Cart"
+            card_view:layout_constraintRight_toRightOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/priceLayout"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:id="@+id/priceLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="10dp"
+            card_view:layout_constraintTop_toBottomOf="@+id/txtCompanyName"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/actualPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="₹ 60999 "
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/sellPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="₹ 5000 "
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
